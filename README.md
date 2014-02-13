@@ -1,4 +1,4 @@
-Uighur
+Uyghur
 ======
 
 The Warden for Cassandra
