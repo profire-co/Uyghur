@@ -1,0 +1,24 @@
+/*
+ * Uyghur
+ * Copyright (c) 2014 Profire Co.,Ltd
+ *
+ * This software is released under the MIT License.
+ *
+ * http://opensource.org/licenses/mit-license.php
+ */
+
+.bg_menu   {background-color:#FF9800;}
+.bg_select {background-color:#666699;}
+.bg_body   {background-color:#F5F5F5;}
+.bg_list1  {background-color:#E5E5E5;}
+.bg_list2  {background-color:#D5D5D5;}
+.rest_table{border: solid 3px #F5F5F5;border-collapse: collapse;}
+.rest_menu {border: solid 3px #F5F5F5;border-collapse: collapse;background-color:#D0DCE0;}
+.rest_1    {border: solid 3px #F5F5F5;border-collapse: collapse;background-color:#E5E5E5;}
+.rest_2    {border: solid 3px #F5F5F5;border-collapse: collapse;background-color:#D5D5D5;}
+
+tr.menu_cf:hover         {background-color: #CCFFCC;}
+tr.menu_cf_active        {background-color: #FFCC00;}
+tr.menu_cf_active:hover  {background-color: #CCFFCC;}
+
+td.datetime{color:#CC00CC;}

@@ -1,0 +1,52 @@
+===============================
+==
+==       Uyghur
+==
+===============================
+  Uyghur is a GUI tool for Cassandra
+
+  This program was modeled on the phpMyAdmin and made. 
+
+
+------------------
+Setting
+  1.Connection setup is changed. 
+
+    ./conf/hosts.ini
+      [Load Cluster]
+      host = "172.18.5.26"
+      port = 9160
+
+  2.Permission of a compile directory is changed. 
+
+    $ chown apache:apache ./template_c
+
+  3.Symbolic link of www is made to a http directory. 
+    $ ln -s ./www /var/www/html/Uyghur
+
+------------------
+C Extension
+
+  The C extension is crucial for phpcassaÅfs performance.
+
+  You need to configure and make to be able to use the C extension:
+
+  cd src/libs/phpcassa/thrift/ext/thrift_protocol
+  phpize
+  ./configure
+  make
+  sudo make install
+
+  Add the following line to your php.ini file:
+
+  extension=thrift_protocol.so
+
+------------------
+Credits
+
+  The Apache Cassandra project
+    http://cassandra.apache.org/
+  phpcassa
+    http://thobbs.github.com/phpcassa
+  phpMyAdmin
+    http://www.phpmyadmin.net

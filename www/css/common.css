@@ -1,0 +1,76 @@
+/*
+ * Uyghur
+ * Copyright (c) 2014 Profire Co.,Ltd
+ *
+ * This software is released under the MIT License.
+ *
+ * http://opensource.org/licenses/mit-license.php
+ */
+
+/*------------------------------------------------------------------------
+    list
+------------------------------------------------------------------------*/
+ul#tablist{
+    margin:             0;
+    padding:            0.3em;
+    font-weight:        bold;
+    list-style-type:    none;
+}
+
+ul#tablist li{
+    float:              left;
+    margin:             0;
+    padding:            0;
+    vertical-align:     middle;
+    border-bottom:      1pt solid #a0a0a0;
+}
+
+/* Change the color of bottom border on active item. */
+ul#tablist li.current {
+    border-bottom:      1pt solid #F5F5F5;
+}
+
+ul#tablist img{
+    vertical-align:     middle;
+    margin-right:       0.1em;
+    padding-bottom:     4px;
+}
+
+/*------------------------------------------------------------------------
+    general tab (not active)
+------------------------------------------------------------------------*/
+ul#tablist li .tab{
+    display:            block;
+    margin:             0.2em 0.2em 0 0.2em;
+    padding:            0.2em 0.2em 0 0.2em;
+    white-space:        nowrap;
+    background-color:   #E5E5E5;
+    border:             1pt solid #D5D5D5;
+    border-bottom:      0;
+    border-radius:      0.4em 0.4em 0 0;
+}
+
+ul#tablist li .active,
+ul#tablist li .tab:hover{
+    margin:             0;
+    padding:            0.2em 0.4em 0.2em 0.4em;
+    text-decoration:    none;
+    background-color:   #F5F5F5;
+}
+
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    caution / hover
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+ul#tablist li .caution {
+    color:              #FF0000;
+}
+ul#tablist li .caution:hover {
+    color: #FFFFFF;
+    background-color:   #FF0000;
+}
+
+
+
+/*
+   EOF
+*/
